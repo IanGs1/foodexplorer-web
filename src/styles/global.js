@@ -11,11 +11,13 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
   }
 
-  body { 
+  * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
 
+  body { 
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
   }
